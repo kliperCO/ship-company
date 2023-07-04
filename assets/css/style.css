@@ -275,7 +275,7 @@ title{
     margin-top: 85px;
 }
 .img-text{
-    background-image: url(/assets/images/tunker.svg);
+    background-image: url(../images/tunker.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
