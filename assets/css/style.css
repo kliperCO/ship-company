@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+    background-color: #133D8D;
+    font-family: 'Roboto', sans-serif; 
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+title{
+    font-weight: bold;
+}
+.container{
+    margin: 0px 132px;
+    position: relative;
+}
+/* Главная */
+.header{
+    background-image: url(/assets/images/intro.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.header-logo{
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.info{
+    display: flex;
+}
+.info-text{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    padding-right: 50px;
+}
+.search{
+    height: 30px;
+}
+.navigation{
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+.nav-item:hover{
+    color: #b2acac;
+    transition: 0.3s;
+}
+.header-down{
+    margin: 120px 0;
+}
+.header-title{
+    color: #fff;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+}
+.header-subtitle{
+    border-left: 1px solid #fff;
+    margin: 15px 0;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 550;
+}
+.detail{
+    display: flex;
+}
+.button-text{
+    background-color: #BD0007;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 140%;
+    transition: 0.5s;
+}
+.button-text:hover{
+    background-color: darkred;
+}
+.ship-card{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: auto;
+}
+/* Новости */
+.news{
+    background-color: #fff;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+.news-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-text{
+    color: #333;
+    font-size: 36px;
+}
+.all-news{
+    color: #133D8D;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+}
+.news-bloks{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.bloks{
+    width: 24%;
+    height: auto;
+    margin-bottom: 100px;
+    transition: 1s;
+}
+.bloks:hover{
+    transform: scale(0.9,0.9);
+}
+/* История */
+.history{
+    background-color: #133D8D;
+    height: 100vh;
+}
+.history-title{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+.his-text{
+    display: flex;
+    position: relative;
+}
+.block{
+    color: #fff;
+    font-size: 12px;
+}
+.years{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    right: 0;
+}
+.square-list{
+    list-style-type: none;
+    padding-top: 350px;
+    color: #fff;
+}
+.square-list li::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+/* Публикации */
+.public{
+    background-color: #fff;
+    height: 100vh;
+    padding-top: 80px;
+}
+.public-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.public-text{
+    color: #333;
+    font-size: 36px;
+}
+.all-public{
+    margin: 0;
+    color: #133D8D;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.public-blocks{
+    display: flex;
+}
+.public-cards{
+    transition: 1s;
+}
+.public-cards:hover{
+    transform: scale(0.9,0.9);
+}
+.public-img{
+    width: 256px;
+    height: 210px;
+}
+.public-data{
+    color: gray;
+    padding-left: 4px;
+}
+.public-blog{
+    font-size: 14px;
+    padding-left: 4px;
+    width: 80%;
+}
+.public-link{
+    text-decoration: none;
+    color: #133D8D;
+    font-size: 10px;
+    padding-left: 4px;
+    width: 80%;
+}
+/* Проекты */
+.projects{
+    background-color: rgba(199, 219, 255, 0.669);
+    height: 100vh;
+    padding-top: 80px;
+}
+.projects-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects-text{
+    color: #fff;
+
+}
+.swch-all{
+    display: flex;
+    align-items: center;
+}
+.all-projects{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.bird{
+    border: none;
+    background-color: #133D8D;
+    color: #fff;
+    padding: 15px 15px;
+    margin-right: 5px;
+}
+.bird:hover{
+    background-color: #0c2a60;
+}
+.projects-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+.img-text{
+    background-image: url(/assets/images/tunker.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+}
+.text{
+    padding-top: 290px;
+    padding-left: 40px;
+}
+.text h2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text p{
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 300;
+    width: 90%;
+}
+.img-info{
+    background-color: #133D8D;
+}
+.projects-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 55px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 110px;
+}
+.projects-cards h3{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+.projects-cards span{
+    font-size: 10px;
+}
+.projects-cards p{
+    color: #FFF;
+    font-size: 10px;
+    width: 70%;
+}
+.button-info{
+    background-color:transparent;
+    text-decoration: none;
+    border: 1px solid var(--white, #FFF);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-left: 60px;
+    padding: 1em;
+}
+.button-info:hover{
+    background-color: darkred;
+}
+/* Устойчивое развитие */
+.development{
+    background-color: #FFF;
+    height: 100vh;
+    padding-top: 96px;
+}
+.dev-block{
+    display: flex;
+    align-items: center;
+}
+.dev-bird{
+    border: none;
+    background-color: #133D8D;
+    color: #fff;
+    padding: 15px 15px;
+}
+.dev-bird:hover{
+    background-color: #0c2a60;
+}
+.block-info{
+    background-color:rgba(185, 209, 255, 0.397);
+    display: flex;
+    justify-content: center;
+    margin: 60px 50px 0px 50px;
+    padding: 60px 60px 20px 0px;
+}
+.sus-dev{
+    background: #133D8D;
+    margin-left: 60px;
+}
+.block-text h3{
+    width: 22%;
+    height: auto;
+    color: #FFF;
+    font-size: 13px;
+    padding: 1em;
+}
+.block-text h2{
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.block-text ul{
+    list-style-type: none;
+    padding-top: 17px;
+    padding-left: 60px;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 140%;
+    font-family: 'Roboto', sans-serif; 
+    color: #333;
+}
+.block-text li{
+    margin-bottom: 20px;
+    width: 80%;
+}
+.block-text li::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(105, 23, 23);
+    margin-right: 18px;
+}
+.scott{
+    width: 100%;
+    height: auto;
+    padding-top: 111px;
+}
+/* Подвал */
+.footer{
+    color:#fff;
+    padding-top: 60px;
+}
+.footer-logo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-nav{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.footer h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.company{
+    display:grid;
+}
+.fleet{
+    display:grid;
+}
+.booster{
+    display:grid;
+}
+.company-info{
+    display:grid;
+    text-align: right;
+}
+.company-info p{
+    margin: 0px 0px 0px auto;
+    width: 60%;
+}
+.subnav{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.subnav:hover{
+    color: #b2acac;
+    transition: 0.3s;
+}
+.company-num{
+    color: #fff;
+    text-decoration: none;
+}
+.company-mail{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
