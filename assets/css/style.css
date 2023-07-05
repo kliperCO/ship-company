@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #133D8D;
     font-family: 'Roboto', sans-serif; 
     font-family: 'Ysabeau Infant', sans-serif;
@@ -135,6 +137,18 @@ title{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+}
+.block_1{
+    background-image: url(../images/news_1.svg);
+}
+.block_2{
+    background-image: url(../images/news_2.svg);
+}
+.block_3{
+    background-image: url(../images/news_3.svg);
+}
+.block_4{
+    background-image: url(../images/news_4.svg);
 }
 .bloks{
     width: 24%;
@@ -434,21 +448,26 @@ title{
     margin-bottom: 10px;
 }
 .company{
-    display:grid;
+    display:flex;
+    flex-direction: column;
 }
 .fleet{
-    display:grid;
+    display:flex;
+    flex-direction: column;
 }
 .booster{
-    display:grid;
+    display:flex;
+    flex-direction: column;
 }
 .company-info{
-    display:grid;
+    display:flex;
+    flex-direction: column;
     text-align: right;
 }
 .company-info p{
-    margin: 0px 0px 0px auto;
-    width: 60%;
+    margin-top: 0;
+    width: 290px;
+    /* margin-bottom: 5px; */
 }
 .subnav{
     font-size: 14px;
